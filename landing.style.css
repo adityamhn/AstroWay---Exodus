@@ -232,6 +232,7 @@
   padding: 4rem 0;
   margin: 5rem 0;
   color: #fff;
+  padding-bottom: 0;
 }
 
 .book-tickets-content {
@@ -263,4 +264,53 @@
   color: #fff;
   letter-spacing: 0.2rem;
   font-weight: bold;
+}
+
+
+.footer-container {
+    height:300px;
+    background-color: #181818;
+    position: relative;
+    padding:2rem 4rem;
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+}
+.footer-links-sec {
+    display: flex;
+}
+
+.footer-section {
+    margin-left: 6rem;
+}
+
+
+.footer-title {
+    color:#c4c4c4;
+    opacity: 0.7;
+    letter-spacing: 0.14rem;
+    margin-bottom: 1.8rem;
+
+
+}
+
+.footer-wrapper {
+    height:fit-content;
+    display: flex;
+    justify-content:space-between;
+    width: 100%;
+}
+
+.footer-link {
+    color: #e5e5e5;
+  letter-spacing: 0.2rem;
+  margin-bottom: 1rem;
+  font-size: 1.05rem;
+    
+
+}
+
+.logo-sec .logo {
+    margin-bottom:3rem;
+    font-size: 2rem;
 }
