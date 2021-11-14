@@ -170,3 +170,13 @@ input:active {
 .checkbox label {
   padding: 0 1rem;
 }
+.book-btn {
+  background: rgba(229, 229, 229, 0.35);
+  border-radius: 48px;
+  padding: 1rem 2.5rem;
+  border: 0;
+  color: #fff;
+  letter-spacing: 0.2rem;
+  font-weight: bold;
+  z-index: 1;
+}
