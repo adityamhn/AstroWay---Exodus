@@ -1,0 +1,24 @@
+
+@font-face {
+    font-family: "PangeaText";
+    src:url("./assets/fonts/Pangea\ Text/PangeaTextTrial-Regular.woff2");
+}
+
+@font-face {
+    font-family: "PangeaTextLight";
+    src:url("./assets/fonts/Pangea\ Text/PangeaTextTrial-Light.woff2");
+}
+
+
+html {
+    background-color: #0D0D0D;
+    padding: 0;
+}
+
+body {
+    padding: 0;
+}
+
+* {
+    font-family: "PangeaTextLight"
+}
