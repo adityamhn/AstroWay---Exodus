@@ -1,16 +1,18 @@
 .hero-content {
-  min-height: calc(100vh - 42px);
+  min-height: calc(100vh - 81px);
   position: relative;
 }
 
 .hero-planet,
 .orbit {
   position: absolute;
-  top: 50%;
+  top: 40%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 500px;
-  height: 500px;
+  width: 42vw;
+  height: 42vw;
+  max-width: 480px;
+  max-height: 480px;
 }
 
 .orbit {
@@ -25,4 +27,31 @@
 .orbit-2 {
   transform: translate(-50%, -50%) scale(1.4);
   border: 2px solid rgba(229, 229, 229, 0.1);
+}
+
+.planet-title {
+  font-size: 3.4rem;
+  color: #e5e5e5;
+  letter-spacing: 0.7rem;
+  margin: 1rem 0rem;
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+}
+
+.book-btn {
+  background: rgba(229, 229, 229, 0.35);
+  border-radius: 48px;
+  padding: 1rem 2.5rem;
+  border: 0;
+  color: #fff;
+  letter-spacing: 0.2rem;
+  font-weight: bold;
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
 }
