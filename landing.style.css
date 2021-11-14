@@ -20,6 +20,20 @@
   max-height: 480px;
 }
 
+.title-overlay {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 40vw;
+  height: 40vw;
+  max-width: 480px;
+  border-radius: 50%;
+  z-index: 5;
+  max-height: 480px;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
 .hero-planet {
   transform-origin: center;
   animation: rotate 30s linear infinite;
@@ -105,6 +119,11 @@
   margin: 0 2.4rem;
 }
 
+@media only screen and (max-width: 1400px) {
+}
+.carousel-item-name {
+  text-align: center;
+}
 .planet-carousel-item:nth-child(4) {
   opacity: 1;
   transform: scale(0.9);
@@ -113,13 +132,13 @@
 .planet-carousel-item:nth-child(1),
 .planet-carousel-item:nth-child(7) {
   transform: scale(0.7);
-  opacity: 0.5;
+  opacity: 0.2;
 }
 
 .planet-carousel-item:nth-child(2),
 .planet-carousel-item:nth-child(6) {
   transform: scale(0.8);
-  opacity: 0.6;
+  opacity: 0.3;
 }
 
 .planet-carousel-item:nth-child(3),
@@ -266,51 +285,45 @@
   font-weight: bold;
 }
 
-
 .footer-container {
-    height:300px;
-    background-color: #181818;
-    position: relative;
-    padding:2rem 4rem;
-    display: flex;
-    justify-content:space-between;
-    align-items:center;
+  height: 300px;
+  background-color: #181818;
+  position: relative;
+  padding: 2rem 4rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 .footer-links-sec {
-    display: flex;
+  display: flex;
 }
 
 .footer-section {
-    margin-left: 6rem;
+  margin-left: 6rem;
 }
 
-
 .footer-title {
-    color:#c4c4c4;
-    opacity: 0.7;
-    letter-spacing: 0.14rem;
-    margin-bottom: 1.8rem;
-
-
+  color: #c4c4c4;
+  opacity: 0.7;
+  letter-spacing: 0.14rem;
+  margin-bottom: 1.8rem;
 }
 
 .footer-wrapper {
-    height:fit-content;
-    display: flex;
-    justify-content:space-between;
-    width: 100%;
+  height: fit-content;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
 }
 
 .footer-link {
-    color: #e5e5e5;
+  color: #e5e5e5;
   letter-spacing: 0.2rem;
   margin-bottom: 1rem;
   font-size: 1.05rem;
-    
-
 }
 
 .logo-sec .logo {
-    margin-bottom:3rem;
-    font-size: 2rem;
+  margin-bottom: 3rem;
+  font-size: 2rem;
 }
