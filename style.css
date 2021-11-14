@@ -1,38 +1,36 @@
-
 @font-face {
-    font-family: "PangeaText";
-    src:url("./assets/fonts/Pangea\ Text/PangeaTextTrial-Regular.woff2");
+  font-family: 'PangeaText';
+  src: url('./assets/fonts/Pangea\ Text/PangeaTextTrial-Regular.woff2');
 }
 
 @font-face {
-    font-family: "PangeaTextLight";
-    src:url("./assets/fonts/Pangea\ Text/PangeaTextTrial-Light.woff2");
+  font-family: 'PangeaTextLight';
+  src: url('./assets/fonts/Pangea\ Text/PangeaTextTrial-Light.woff2');
 }
-
 
 html {
-    background-color: #0D0D0D;
-    padding: 0;
+  background-color: #0d0d0d;
+  padding: 0;
 }
 
 body {
-    padding: 0;
+  padding: 0;
 }
 
 * {
-    font-family: "PangeaTextLight"
+  font-family: 'PangeaTextLight';
 }
 
 .top-navbar {
-    display: flex;
-    align-items: center;
-    padding:1.5rem 4rem;
-
+  display: flex;
+  align-items: center;
+  padding: 1.5rem 4rem;
+  position: fixed;
 }
 
 .logo {
-    color: #fff;
-    font-size: 1.6rem;
-    font-weight:200;
-    letter-spacing: 0.11rem;
+  color: #fff;
+  font-size: 1.6rem;
+  font-weight: 200;
+  letter-spacing: 0.11rem;
 }
