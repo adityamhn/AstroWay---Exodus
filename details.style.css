@@ -31,6 +31,7 @@
 
 .booking-attractions {
   color: #fff;
+  display: flex;
   padding: 4rem;
 }
 
@@ -55,9 +56,13 @@
 }
 
 .image-overlay {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
   height: 40rem;
   width: 24rem;
-  margin: 2rem 3rem;
+  margin: 2rem 0;
 }
 
 .image-overlay-text {
@@ -75,9 +80,7 @@
     rgba(0, 0, 0, 0.7) 64.12%,
     rgba(0, 0, 0, 0.7) 100%
   );
-  opacity: 0;
   transition: 0.2s ease-in-out all;
-  cursor: pointer;
 }
 
 .image-overlay-text h3 {
@@ -119,6 +122,51 @@
   padding-bottom: 2.4rem;
 }
 
-.image-overlay:hover .image-overlay-text {
+.image-overlay-text {
   opacity: 1;
+}
+
+.book-form {
+  flex: 1;
+  padding: 2rem 0;
+  margin-right: 4rem;
+}
+
+.input-grp {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 2.4rem;
+}
+
+label {
+  font-size: 1.2rem;
+  line-height: 20px;
+  letter-spacing: 0.11em;
+
+  color: #ffffff;
+  padding-bottom: 1rem;
+}
+
+input {
+  background: rgba(255, 255, 255, 0.15);
+  border: 0;
+  height: 2.4rem;
+  color: white;
+  padding: 0 1rem;
+  border-radius: 8px;
+}
+
+input:focus,
+input:active {
+  outline: none;
+  box-shadow: none;
+}
+
+.checkbox {
+  flex-direction: row;
+  align-items: center;
+}
+
+.checkbox label {
+  padding: 0 1rem;
 }
