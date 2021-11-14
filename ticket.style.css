@@ -1,0 +1,59 @@
+.main-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 5rem;
+
+}
+.success-title {
+    font-size:2rem;
+    color:#e5e5e5;
+    letter-spacing: 0.7rem;
+    margin: 1rem 0rem;
+
+}
+
+.ticket-container {
+    height: 400px;
+    width: 80%;
+    background: linear-gradient(to right,#e5e5e5 0%,#e5e5e5 70%,aqua 70%,aqua 100%);
+    margin-top: 4rem;
+    padding:2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+
+}
+
+.top-wrapper {
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+}
+.left {
+
+}
+
+.ticket-section {
+margin: 0.5rem 0rem;
+}
+
+.ticket-heading {
+    font-size: 1.2rem;
+    color: #c4c4c4;
+    letter-spacing: 0.2rem;
+    margin: 0.8rem 0rem;
+
+}
+
+.ticket-value {
+    font-size: 1.7rem;
+    color: #222;
+    letter-spacing: 0.2rem;
+    margin: 0.3rem 0rem;
+}
+
+.ticket-sec-2 {
+    background-color: aquamarine;
+    height: 100%;}
