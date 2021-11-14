@@ -22,3 +22,17 @@ body {
 * {
     font-family: "PangeaTextLight"
 }
+
+.top-navbar {
+    display: flex;
+    align-items: center;
+    padding:1.5rem 4rem;
+
+}
+
+.logo {
+    color: #fff;
+    font-size: 1.6rem;
+    font-weight:200;
+    letter-spacing: 0.11rem;
+}
