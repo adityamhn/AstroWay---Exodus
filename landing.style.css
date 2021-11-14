@@ -308,6 +308,9 @@
 }
 
 @media only screen and (max-width: 768px) {
+  .row {
+    flex-direction: column;
+  }
   .footer-wrapper {
     flex-direction: column;
   }
@@ -323,6 +326,9 @@
     transform: translate(-50%, 150px) scale(0.5);
   }
 
+  .row-content {
+    align-items: center;
+  }
   .row-content p {
     padding-right: 0;
   }
